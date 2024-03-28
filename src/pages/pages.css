@@ -1,0 +1,47 @@
+.loginWrapper{
+   @apply text-center pt-10
+}
+.loginText{
+   @apply text-2xl
+}
+.loginButton{
+   @apply bg-blue-900 px-6 py-3 mt-8 hover:bg-blue-800
+   active:bg-blue-700
+}
+.signCards{
+   @apply border inline-block px-10 py-3 pb-5 mb-10
+}
+
+.disabled{
+   @apply bg-gray-600 px-6 py-3 mt-8 text-black cursor-default
+}
+.postForm{
+   @apply [&>*]:block space-y-5 p-10 bg-[#240033]
+   rounded-xl w-11/12 md:w-9/12 lg:w-7/12
+}
+.form-title{
+   @apply text-purple-300 bg-black py-3 px-3 rounded-lg border-2
+   border-gray-800 w-9/12 
+}
+.form-desc{
+   @apply text-purple-300 resize-none bg-black border-2 border-gray-800 rounded-lg h-36 pt-1 ps-2 w-11/12
+}
+.formSubmit{
+   @apply px-4 py-2 rounded-lg hover:bg-purple-900 transition-all active:bg-purple-600
+   border-2 border-black cursor-pointer
+}
+.error-message{
+   @apply text-red-500
+}
+.posts-wrapper{
+   @apply w-11/12 md:w-8/12 lg:w-5/12 space-y-10 my-8
+}
+.postComp{
+   @apply bg-gray-900 px-9 py-5 space-y-5 rounded-lg
+}
+.postTitle{
+   @apply text-4xl font-semibold break-words max-w-full
+}
+.postDesc{
+   @apply break-words max-w-full
+}
